@@ -1,0 +1,24 @@
+.carousel {
+    margin: 20px 0px;
+}
+
+.carousel img {
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+
+.carousel-indicators {
+    margin-bottom: 0px;
+}
+
+.carousel-control {
+    width: 10%;
+}
+
+.carousel-control span {
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    z-index: 5;
+}

@@ -1,6 +1,7 @@
-$("nav a").click(function() {
-    $(".navbar-collapse").collapse("hide");
-});
+$(document).on("click", ".nav a", function(item) {
+    // Collapse navbar automatically after click on an item
+    $("#ipelNavbar").collapse("hide");
+})
 
 $(document).ready(function(){
     // Add smooth scrolling to all internal links

@@ -1,0 +1,63 @@
+.navbar, .dropdown-menu {
+    margin-bottom: 0px !important;
+    background-color: #A78337;
+    color: #FFF;
+    font-family: Montserrat, "Microsoft YaHei UI Light", sans-serif;
+    font-size: 12px !important;
+    border: 0px;
+    border-radius: 5px;
+}
+
+.nav a, .navbar-brand {
+    color: #FFF !important;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.nav li.active a {
+    background-color: #FFF !important;
+    color: #A78337 !important;
+}
+
+.nav li.active .dropdown-menu a {
+    background-color: #A78337 !important;
+    color: #FFF !important;
+}
+
+.nav a:hover ,.nav li .dropdown-menu a:hover {
+    color: #A78337 !important;
+    background-color: #FFF !important;
+}
+
+.navbar .navbar-toggle .icon-bar {
+    background-color: #FFF;
+}
+
+.navbar .navbar-toggle {
+    color: #FFF !important;
+    border: 0px;
+}
+
+.navbar-header button {
+    margin-right: 0px;
+}
+
+@media screen and (min-width: 768px) {
+    .affix {
+        top: 0px;
+        z-index: 9;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .affix {
+        top: 0px;
+        right: 0px;
+        z-index: 9;
+    }
+}
