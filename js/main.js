@@ -3,7 +3,7 @@ $(document).on("click", ".nav a", function(item) {
     $("#ipelNavbar").collapse("hide");
 })
 
-$(document).ready(function(){
+$(document).ready(function() {
     // Add smooth scrolling to all internal links
     $("a[href='#ipel']").on("click", function(event) {
         if (this.hash !== "") {
