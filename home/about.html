@@ -29,17 +29,9 @@
 
   <script>
   $(function() {
-    $("#footer").load("../common/footer.html");
-  });
-  </script>
-  <script>
-  $(function() {
     $("#ipelBanner").load("../common/ipelBanner.html");
-  });
-  </script>
-  <script>
-  $(function() {
     $("#hkBanner").load("../common/hkBanner.html");
+    $("#navbar").load("../common/navbar.html");
   });
   </script>
 </head>
@@ -53,76 +45,7 @@
 <div class="jumbotron text-center" id="ipelBanner"></div>
 
 <!-- navigation bar -->
-<nav class="navbar navbar-default" data-spy="affix" data-offset-top="80">
-  <div class="container">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#ipelNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand visible-md visible-lg" href="#ipel" title="we are IPEL">IPEL</a>
-    </div>
-    <div class="collapse navbar-collapse" id="ipelNavbar">
-      <ul class="nav navbar-nav">
-        <li class="dropdown active"><a class="dropdown-toggle" data-toggle="dropdown" href="#ipel" title="explore IPEL"><span class="fa fa-home"></span> HOME</a>
-          <ul class="dropdown-menu hidden-xs">
-            <li><a href="#ipel"><span class="fa fa-info-circle"></span> ABOUT US</a></li>
-            <li><a href="#ipel"><span class="fa fa-newspaper-o"></span> NEWS</a></li>
-            <li><a href="#ipel"><span class="fa fa-picture-o"></span> GALLERY</a></li>
-          </ul>
-        </li>
-        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#ipel" title="meet IPEL members"><span class="fa fa-users"></span> PEOPLE</a>
-          <ul class="dropdown-menu hidden-xs">
-            <li><a href="#ipel"><span class="fa fa-user"></span> FACULTY MEMBERS</a></li>
-            <li><a href="#ipel"><span class="fa fa-user"></span> CURRENT MEMBERS</a></li>
-            <li><a href="#ipel"><span class="fa fa-user"></span> ALUMNI MEMBERS</a></li>
-          </ul>
-        </li>
-        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#ipel" title="IPEL reserach projects"><span class="fa fa-pencil-square-o"></span> RESEARCH</a>
-          <ul class="dropdown-menu hidden-xs">
-            <li><a href="#ipel"><span class="fa fa-spinner"></span> ONGOING PROJECTS</a></li>
-            <li><a href="#ipel"><span class="fa fa-lock"></span> COMPLETED PROJECTS</a></li>
-          </ul>
-        </li>
-        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#ipel" title="IPEL publication list"><span class="fa fa-book"></span> PUBLICATIONS</a>
-          <ul class="dropdown-menu hidden-xs">
-            <li><a href="#ipel"><span class="fa fa-list-ol"></span> JOURNAL PAPERS</a></li>
-            <li><a href="#ipel"><span class="fa fa-list-ol"></span> CONFERENCE PAPERS</a></li>
-            <li><a href="#ipel"><span class="fa fa-list-ol"></span> BOOKS & CHAPTERS</a></li>
-            <li><a href="#ipel"><span class="fa fa-list-ol"></span> PATENTS</a></li>
-            <li><a href="#ipel"><span class="fa fa-list-ol"></span> E-THESES</a></li>
-          </ul>
-        </li>
-        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#ipel" title="courses related to IPEL"><span class="fa fa-graduation-cap"></span> EDUCATION</a>
-          <ul class="dropdown-menu hidden-xs">
-            <li><a href="#ipel"><span class="fa fa-graduation-cap"></span> UG COURSES</a></li>
-            <li><a href="#ipel"><span class="fa fa-graduation-cap"></span> PG COURSES</a></li>
-          </ul>
-        </li>
-        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#ipel" title="contact us"><span class="fa fa-handshake-o"></span> CONTACT</a>
-          <ul class="dropdown-menu hidden-xs">
-            <li><a href="#ipel"><span class="fa fa-map-marker"></span> LOCATE ON GMAP</a></li>
-            <li><a href="#ipel"><span class="fa fa-user"></span> FACULTY MEMBERS</a></li>
-            <li><a href="#ipel"><span class="fa fa-user"></span> CURRENT MEMBERS</a></li>
-            <li><a href="#ipel"><span class="fa fa-user"></span> ALUMNI MEMBERS</a></li>
-          </ul>
-        </li>
-        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#ipel" title="useful links"><span class="fa fa-link"></span> LINKS</a>
-          <ul class="dropdown-menu hidden-xs">
-            <li><a href="#ipel"><span class="fa fa-university"></span> ACADEMICS</a></li>
-            <li><a href="#ipel"><span class="fa fa-industry"></span> IC FOUNDRIES</a></li>
-            <li><a href="#ipel"><span class="fa fa-shopping-cart"></span> COMPONENT VENDORS</a></li>
-            <li><a href="#ipel"><span class="fa fa-building"></span> TECHNICAL COMPANIES</a></li>
-            <li><a href="#ipel"><span class="fa fa-book"></span> TECHNICAL BOOK COMPANIES</a></li>
-          </ul>
-        </li>
-      </ul>
-      <ul class="nav navbar-nav navbar-right">
-        <li class="visible-md visible-lg"><a href="https://drive.google.com/drive/folders/0B0R0NWdqfiyBNzA0MmYxZTItZTY0Ny00ZDdlLWExNTMtYjRkM2YwYmVhMTRh" target="_blank" title="IPEL-member-only intranet"><span class="fa fa-globe"></span> INTRANET</a></li>
-      </ul>
-    </div>
-  </div>
+<nav class="navbar navbar-default" data-spy="affix" data-offset-top="80" id="navbar">
 </nav>
 
 <!-- hong kong banner -->
@@ -306,7 +229,21 @@
 <!-- body information -->
 
 <!-- footer information -->
-<footer id="footer"></footer>
+<footer id="footer">
+  <div class="container">
+    <div class="text-center">
+      <a href="#ipel" title="back to top"><span class="fa fa-chevron-up"></span></a>
+    </div>
+    <div class="row">
+      <div class="col-lg-10 col-md-10 col-sm-10 col-xs-12">
+        <p>&copy; Copyright Integrated Power Electronics Laboratory. All rights reserved.</p>
+      </div>
+      <div class="col-lg-2 col-md-2 col-sm-2 hidden-xs">
+        <a href="http://www.ust.hk" target="_blank"><img src="../images/hkust_logo.svg" alt="HKUST logo"></a>
+      </div>
+    </div>
+  </div>
+</footer>
 <!-- footer information -->
 
 </html>
