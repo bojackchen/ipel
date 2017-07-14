@@ -1,0 +1,7 @@
+
+AuthName "IPEL Intranet: Use HKUST ITSC A/C"
+AuthType Basic
+AuthBasicProvider file ldap
+AuthUserFile /staff/ee/ipel/public_html/intranet/.htpasswd
+AuthLDAPURL ldap://ldap.ust.hk/o=ust.hk?uid?sub?(objectClass=*)
+require user eeuser eealumni eemok eeki hcxab yanlu liuyonggen eeykteh mtanaa lchengaa fyangaa xhuae eedarwin xliuam lliar ygaoad zachen jzhengab eezhangfeng jjiangah yluar spanac eebill fchenaf qwanaa lhuab spal xgeab swangbw nxuab khchong

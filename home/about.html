@@ -26,6 +26,22 @@
   <script src="../js/jquery.min.js"></script>
   <script src="../js/bootstrap.min.js"></script>
   <script src="../js/main.js"></script>
+
+  <script>
+  $(function() {
+    $("footer").load("../common/footer.html");
+  });
+  </script>
+  <script>
+  $(function() {
+    $("#ipelBanner").load("../common/ipelBanner.html");
+  });
+  </script>
+  <script>
+  $(function() {
+    $("#hkBanner").load("../common/hkBanner.html");
+  });
+  </script>
 </head>
 <!-- head information -->
 
@@ -120,7 +136,7 @@
 
 <div class="container">
   <div class="row">
-    <div class="col-md-9">
+    <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12">
       <!-- introduction part -->
       <div class="page-header">
         <h1>Introduction</h1>
@@ -192,84 +208,101 @@
         </a>
       </div>
       <p class="text-muted">View more information about IPEL through <a href="#ipel">Gallery</a> and <a href="#ipel">News</a>.
-      <p class="text-muted text-right">Last updated: 25/01/2017</p>
+      <p class="text-muted text-right">Last updated: 13/07/2017</p>
     </div>
 
-    <div class="col-lg-3 col-md-3 hidden-sm hidden-xs">
+    <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
       <!-- news part -->
       <div class="page-header">
         <h2>News</h2>
       </div>
-      <div class="row">
-        <div class="col-lg-3 col-md-3 hidden-sm hidden-xs">
-          <img src="../images/graduation.jpg" alt="graduation">
-        </div>
-        <div class="col-lg-9 col-md-9 hidden-sm hidden-xs">
-          <p class="text-muted">Jan. 24, 2017</p>
-          <p>Mr. Dipyaman MODAK obtained his M.Phil. degree</p>
-        </div>
-      </div>
-      <hr/>
-      <div class="row">
-        <div class="col-lg-3 col-md-3 hidden-sm hidden-xs">
-          <img src="../images/isscc.png" alt="ISSCC">
-        </div>
-        <div class="col-lg-9 col-md-9 hidden-sm hidden-xs">
-          <p class="text-muted">Oct. 11, 2016</p>
-          <p>Five ISSCC 2017 papers are accepted</p>
-        </div>
-      </div>
-      <hr/>
-      <div class="row">
-        <div class="col-lg-3 col-md-3 hidden-sm hidden-xs">
-          <img src="../images/graduation.jpg" alt="graduation">
-        </div>
-        <div class="col-lg-9 col-md-9 hidden-sm hidden-xs">
-          <p class="text-muted">Aug. 1, 2016</p>
-          <p>Mr. Lin CHENG obtained his Ph.D. degree</p>
-        </div>
-      </div>
+      <ul class="media-list">
+        <li class="media">
+          <div class="media-left">
+            <img src="../images/graduation.jpg" class="media-boject" style="width:50px">
+          </div>
+          <div class="media-body">
+            <p class="text-muted">Jan. 24, 2017</p>
+            <p>Mr. Dipyaman MODAK obtained his M.Phil. degree</p>
+          </div>
+        </li>
+        <hr></hr>
+        <li class="media">
+          <div class="media-left">
+            <img src="../images/graduation.jpg" class="media-boject" style="width:50px">
+          </div>
+          <div class="media-body">
+            <p class="text-muted">Dec. 14, 2016</p>
+            <p>Mr. Fan YANG obtained his Ph.D. degree</p>
+          </div>
+        </li>
+        <hr></hr>
+        <li class="media">
+          <div class="media-left">
+            <img src="../images/isscc.png" class="media-boject" style="width:50px">
+          </div>
+          <div class="media-body">
+            <p class="text-muted">Oct. 11, 2016</p>
+            <p>Five ISSCC 2017 papers are accepted</p>
+          </div>
+        </li>
+        <hr></hr>
+        <li class="media">
+          <div class="media-left">
+            <img src="../images/graduation.jpg" class="media-boject" style="width:50px">
+          </div>
+          <div class="media-body">
+            <p class="text-muted">Aug. 1, 2016</p>
+            <p>Mr. Lin CHENG obtained his Ph.D. degree</p>
+          </div>
+        </li>
+        <hr></hr>
+      </ul>
       <p class="text-right"><a href="#ipel" title="more news">MORE</a></p>
 
       <!-- gallery part -->
       <div class="page-header">
         <h2>Gallery</h2>
       </div>
-      <div class="row">
-        <div class="col-lg-6 col-md-6 hidden-sm hidden-xs">
-          <img src="../images/ipellogo(full).png" alt="IPEL logo full">
-        </div>
-        <div class="col-lg-6 col-md-6 hidden-sm hidden-xs">
-          <p class="text-right"><a href="#ipel" title="download">IPEL logo (full)</a></p>
-        </div>
-      </div>
-      <hr/>
-      <div class="row">
-        <div class="col-lg-6 col-md-6 hidden-sm hidden-xs">
-          <img src="../images/ipellogo(inverted).png" alt="IPEL logo inverted">
-        </div>
-        <div class="col-lg-6 col-md-6 hidden-sm hidden-xs">
-          <p class="text-right"><a href="#ipel" title="download">IPEL logo (inverted)</a></p>
-        </div>
-      </div>
-      <hr/>
-      <div class="row">
-        <div class="col-lg-4 col-md-4 hidden-sm hidden-xs">
-          <img src="../images/ipellogo(simple).png" alt="IPEL logo simple">
-        </div>
-        <div class="col-lg-8 col-md-8 hidden-sm hidden-xs">
-          <p class="text-right"><a href="#ipel" title="download">IPEL logo (simple)</a></p>
-        </div>
-      </div>
-      <hr/>
-      <div class="row">
-        <div class="col-lg-4 col-md-4 hidden-sm hidden-xs">
-          <img src="../images/ipellogo(simpleinverted).png" alt="IPEL logo simple inverted">
-        </div>
-        <div class="col-lg-8 col-md-8 hidden-sm hidden-xs">
-          <p class="text-right"><a href="#ipel" title="download">IPEL logo (simple inverted)</a></p>
-        </div>
-      </div>
+      <ul class="media-list">
+        <li class="media">
+          <div class="media-left">
+            <img src="../images/ipellogo(full).png" class="media-object" style="width:100px">
+          </div>
+          <div class="media-body">
+            <p class="text-right">IPEL logo (full)</p>
+          </div>
+        </li>
+        <hr></hr>
+        <li class="media">
+          <div class="media-left">
+            <img src="../images/ipellogo(inverted).png" class="media-object" style="width:100px">
+          </div>
+          <div class="media-body">
+            <p class="text-right">IPEL logo (inverted)</p>
+          </div>
+        </li>
+        <hr></hr>
+        <li class="media">
+          <div class="media-left">
+            <img src="../images/ipellogo(simple).png" class="media-object" style="width:50px">
+          </div>
+          <div class="media-body">
+            <p class="text-right">IPEL logo (simple)</p>
+          </div>
+        </li>
+        <hr></hr>
+        <li class="media">
+          <div class="media-left">
+            <img src="../images/ipellogo(simpleinverted).png" class="media-object" style="width:50px">
+          </div>
+          <div class="media-body">
+            <p class="text-right">IPEL logo (simple inverted)</p>
+          </div>
+        </li>
+        <hr></hr>
+      </ul>
+      <p class="text-right"><a href="#ipel" title="more images">MORE</a></p>
     </div>
   </div>
 </div>
@@ -278,10 +311,10 @@
 
 <!-- footer information -->
 <footer>
-  <div class="text-center">
-    <a href="#ipel" title="back to top"><span class="fa fa-chevron-up"></span></a>
-  </div>
   <div class="container">
+    <div class="text-center">
+      <a href="#ipel" title="back to top"><span class="fa fa-chevron-up"></span></a>
+    </div>
     <div class="row">
       <div class="col-lg-10 col-md-10 col-sm-10 col-xs-12">
         <p>&copy; Copyright Integrated Power Electronics Laboratory. All rights reserved.</p>
