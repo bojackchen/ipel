@@ -17,9 +17,3 @@ $(document).ready(function() {
     }
   });
 })
-
-$(document).ready(function() {
-  $("#ipelBanner").load("../common/ipelBanner.html");
-  $("#hkBanner").load("../common/hkBanner.html");
-  $("#footer").load("../common/footer.html");
-})
