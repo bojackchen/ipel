@@ -4,20 +4,12 @@ body {
     text-align: justify;
 }
 
-#content {
-    min-height: 800px;
-}
-
-.list-group a {
-    text-decoration: none;
-}
-
 h1, h2 {
     color: #003974;
     margin-top: 25px;
     margin-bottom: 5px;
     font-variant: small-caps;
-    font-family: Lato, "Microsoft YaHei UI Light", sans-serif;
+    font-family: Montserrat, "Microsoft YaHei UI Light", sans-serif;
     font-weight: bold;
     letter-spacing: 2px;
 }
@@ -46,4 +38,12 @@ footer img {
     width: 100%;
     height: auto;
     max-height: 50px;
+}
+
+#content {
+    min-height: 800px;
+}
+
+.list-group a {
+    text-decoration: none;
 }
