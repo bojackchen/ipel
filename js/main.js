@@ -4,6 +4,10 @@ $(document).on("click", ".nav a", function(item) {
 })
 
 $(document).ready(function() {
+  // Last modified field
+  var date = document.lastModified;
+  document.getElementById("lastupdate").innerHTML = "Last modified: " + date;
+
   // Add smooth scrolling to all internal links
   $("a[href='#ipel']").on("click", function(event) {
     if (this.hash !== "") {
