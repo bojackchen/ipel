@@ -47,3 +47,7 @@ footer img {
 .list-group a {
     text-decoration: none;
 }
+
+.media-object {
+    width: 80px;
+}
