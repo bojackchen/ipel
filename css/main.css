@@ -4,13 +4,16 @@ body {
     text-align: justify;
 }
 
-h1, h2 {
+h1, h2, h3 {
     color: #003974;
     margin-top: 25px;
     margin-bottom: 5px;
-    font-variant: small-caps;
     font-family: Montserrat, "Microsoft YaHei UI Light", sans-serif;
     font-weight: bold;
+}
+
+h1, h2 {
+    font-variant: small-caps;
     letter-spacing: 2px;
 }
 

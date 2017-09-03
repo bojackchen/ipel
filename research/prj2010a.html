@@ -60,32 +60,24 @@
         <h2>Research</h2>
       </div>
       <ul class="list-group">
-        <a href="ongoing.html"><li class="list-group-item active">Ongoing Projects</li></a>
+        <a href="ongoing.html"><li class="list-group-item">Ongoing Projects</li></a>
         <a href="completed.html"><li class="list-group-item">Completed Projects</li></a>
       </ul>
     </div>    
     <div class="col-lg-9 col-lg-pull-3 col-md-9 col-md-pull-3 col-sm-9 col-sm-pull-3 col-xs-12">
       <div class="page-header">
-        <h1>Ongoing Projects</h1>
+        <h3><strong>Control Strategies and Integrated Circuit Techniques for Very High Frequency DC-DC Switching Converters</strong></h3>
+        <p class="text-right">Reference: RGC CERG HKUST 613810, 2010</p>
       </div>
-      <ul>
-        <li><a href="prj2015a.html">A Homogeneous DC-DC Converter Grid with Fast Load Sharing for Distributed Power Supply in SoC Applications</a></li>
-        <p class="text-muted">2015 - RGC CERG HKUST 16206615, Prof. Philip K. T. Mok</p>
-        <li><a href="prj2015b.html">Integrated Power Management IC for Multiple Global Navigation Satellite Systems (GNSS)</a> [<a href="http://ip-platform.ust.hk" target="_blank">site</a>]</li>
-        <p class="text-muted">2015 - ITF ITS/331/14FX, Prof. Wing-Hung Ki</p>
-        <li><a href="prj2014a.html">A Fast Reference-Tracking On-Chip Switching Converter for DVFS Applications</a></li>
-        <p class="text-muted">2014 - RGC CERG HKUST 16207014, Prof. Philip K. T. Mok</p>
-        <li><a href="prj2013a.html">Development of Low-Power Fast-Transient Digital Low-Dropout Regulator for SoC Power Supply</a></li>
-        <p class="text-muted">2013 - RGC CERG HKUST 616813, Prof. Philip K. T. Mok</p>
-        <li><a href="prj2012a.html">High-Efficiency Wideband Envelope-Tracking Supply Modulator for 4G RF Power Amplifiers</a></li>
-        <p class="text-muted">2012 - RGC CERG HKUST 613512, Prof. Wing-Hung Ki</p>
-        <li><a href="prj2011a.html">Guangdong - Hong Kong Integrated Circuit Design and Innovation Platform</a> [<a href="http://ip-platform.ust.hk" target="_blank">site</a>]</li>
-        <p class="text-muted">2011 - ITF GHP/061/09GD, Prof. Wing-Hung Ki and Prof. Patrick C. Yue</p>
-        <li><a href="prj2010a.html">Control Strategies and Integrated Circuit Techniques for Very High Frequency DC-DC Switching Converters</a></li>
-        <p class="text-muted">2010 - RGC CERG HKUST 613810, Prof. Wing-Hung Ki</p>
-        <li><a href="prj2010b.html">Development of Ultra-Low-Power Power Management Integrated Circuit for Energy-Autonomous Electronic Device</a></li>
-        <p class="text-muted">2010 - RGC CERG HKUST 617010, Prof. Philip K. T. Mok</p>
-      </ul>
+      <!-- next item -->
+      <dd>
+        <dt>Personnel</dt>
+        <dl>FICs - Prof. Wing-Hung Ki</dl>
+      </dd>
+      <dd>
+        <dt>Description</dt>
+        <dl>Current commercial DC-DC switching converters are working with a switching frequency (fs) of 1MHz to 4MHz, increased from using 200kHz to 500kHz that was very popular 15 years ago. Higher frequencies help to reduce the sizes of the inductor and the output capacitor, and it is foreseeable that in the next 5 years, the switching frequency of general purpose switching converters will be increased to 10MHz or higher. However, switching converters that have a switching frequency in the VHF (very-high-frequency) range of 30MHz to 300MHz already find applications in powering up computer processors and working as power amplifier supply modulators for polar transmitters. In recent years, there has been active research on switching converters in the 100MHz or even the 1GHz (ultra-high-frequency, UHF) range. For lower frequencies (<100MHz), PWM (pulsewidth modulation) control can be used; but for higher frequencies (>100MHz), variations of hysteretic control are commonly used. To achieve lower output ripple voltages, multi-phase operation has been attempted. In general, designs with lower frequencies and off-chip inductors have higher efficiencies (>80%), and designs with higher frequencies and on-chip inductors have lower efficiencies (<70%). We propose to study and design VHF switching converters that have a switching frequency of over 100MHz and with high efficiency approaching or over 90%. The converters should have very fast line and load transient responses and very fast reference tracking. The loop bandwidth should approach fs/5, as compared to traditional PWM controls that only achieve a bandwidth of around fs/20, whether in voltage-mode or current-mode control. To push for the high loop bandwidth limit, hysteretic control could be considered. Contrary to the established belief that hysteretic converters are unconditionally stable, however, our preliminary study shows that many operating modes are unstable. In this research, we will identify all feasible and infeasible operating conditions. Most hysteretic designs have a variable switching frequency that is undesirable in noise-sensitive applications. Hence, we will explore techniques of hysteretic control with a fixed frequency. All published discussions of switching converters with non-PWM control have failed to discuss their loop gain functions, compensation and stability. In our designs, we will employ state space averaging and loop breaking criterion of signal flow graph to derive the loop gain functions, and discuss stability in details. Many published VHF switching converters employ ad hoc circuit techniques without discussion and/or justification. We will provide design details with justification for others to reproduce our results.</dl>
+      </dd>
       <hr></hr>
       <p class="text-muted text-right">Source: <a href="http://www.ugc.edu.hk/eng/rgc" target="_blank">RGC</a> | <a href="https://cerg1.ugc.edu.hk" target="_blank">CERG</a> | <a href="http://www.itc.gov.hk/en/funding/itf.htm" target="_blank">ITF</a></p>
       <p class="text-muted text-right" id="lastupdate"></p>
