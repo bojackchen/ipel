@@ -4,13 +4,16 @@ body {
     text-align: justify;
 }
 
-h1, h2 {
+h1, h2, h3 {
     color: #003974;
     margin-top: 25px;
     margin-bottom: 5px;
-    font-variant: small-caps;
     font-family: Montserrat, "Microsoft YaHei UI Light", sans-serif;
     font-weight: bold;
+}
+
+h1, h2 {
+    font-variant: small-caps;
     letter-spacing: 2px;
 }
 
@@ -40,8 +43,19 @@ footer img {
     max-height: 50px;
 }
 
+paperanchor {
+    color: #003974;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+paperaward {
+    color: #A78337;
+    font-weight: bold;
+}
+
 #content {
-    min-height: 800px;
+    min-height: 1000px;
 }
 
 .list-group a {
