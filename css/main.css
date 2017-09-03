@@ -43,6 +43,13 @@ footer img {
     max-height: 50px;
 }
 
+paperanchor {
+    margin: 0px 10px;
+    color: #003974;
+    font-size: 18px;
+    font-weight: bold;
+}
+
 #content {
     min-height: 1000px;
 }
