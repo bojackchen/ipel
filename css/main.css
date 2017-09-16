@@ -54,14 +54,18 @@ paperaward {
     font-weight: bold;
 }
 
-#content {
-    min-height: 1000px;
-}
-
 .list-group a {
     text-decoration: none;
 }
 
 .media-object {
     width: 80px;
+}
+
+#content {
+    min-height: 1000px;
+}
+
+#lastupdate {
+    padding-top: 50px;
 }
