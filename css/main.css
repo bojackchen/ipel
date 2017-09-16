@@ -1,5 +1,5 @@
 body {
-    font: 400 16px Lato, Tahoma, sans-serif;
+    font: 400 15px Lato, Tahoma, sans-serif;
     line-height: 1.4;
     text-align: justify;
 }
@@ -62,10 +62,11 @@ paperaward {
     width: 80px;
 }
 
-#content {
-    min-height: 1000px;
+.img-thumbnail {
+    width: 126px;  // 180px x 0.7
+    height: 154px;  // 220px x 0.7
 }
 
-#lastupdate {
-    padding-top: 50px;
+#content {
+    min-height: 1000px;
 }
