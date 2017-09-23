@@ -1,5 +1,5 @@
 body {
-    font: 400 15px Lato, Tahoma, sans-serif;
+    font: 400 15px Lato, "Microsoft YaHei UI Light", sans-serif;
     line-height: 1.4;
     text-align: justify;
 }
@@ -54,17 +54,22 @@ paperaward {
     font-weight: bold;
 }
 
+.small-thumbnail {
+    width: 126px !important;  // 180 px x 0.7
+    height: auto;
+}
+
+.large-thumbnail {
+    max-width: 180px;
+    height: auto;
+}
+
 .list-group a {
     text-decoration: none;
 }
 
 .media-object {
     width: 80px;
-}
-
-.img-thumbnail {
-    width: 126px;  // 180px x 0.7
-    height: 154px;  // 220px x 0.7
 }
 
 #content {
