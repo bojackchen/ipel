@@ -54,6 +54,11 @@ paperaward {
     font-weight: bold;
 }
 
+dt {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
 .small-thumbnail {
     width: 126px !important;  // 180 px x 0.7
     height: auto;
