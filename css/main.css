@@ -59,6 +59,10 @@ dt {
     margin-bottom: 10px;
 }
 
+.well {
+    padding: 10px !important;
+}
+
 .small-thumbnail {
     width: 126px !important;  // 180 px x 0.7
     height: auto;
@@ -74,7 +78,7 @@ dt {
 }
 
 .media-object {
-    width: 80px;
+    width: 60px;
 }
 
 #content {
