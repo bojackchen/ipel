@@ -26,6 +26,9 @@
   <script src="../js/jquery.min.js"></script>
   <script src="../js/bootstrap.min.js"></script>
   <script src="../js/main.js"></script>
+  <script src="../js/jquery.mark.min.js"></script>
+  <script src="../js/mark.min.js"></script>
+  <script src="../js/search.js"></script>
   <script>$(function() {
     $("#navigation").load("../include/navbar.html");
     $("#journal").load("jabref-export/jabref-journal.html")
@@ -72,7 +75,16 @@
       <div class="page-header">
         <h1>Journal Papers</h1>
       </div>
-      <div id="journal"></div>
+      <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+          <input type="text" name="keyword" class="form-control" placeholder="keyword search...">
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 text-center">
+          <input type="checkbox" name="opt[]" value="separateWordSearch" checked> separate word search
+          <input type="checkbox" name="opt[]" value="diacritics" checked> diacritics
+        </div>
+      </div>
+      <div class="jrnlcnf" id="journal"></div>
 
       <p class="text-muted text-right" id="lastupdate"></p>
     </div>
