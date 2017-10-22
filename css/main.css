@@ -22,6 +22,11 @@ img {
     height: auto;
 }
 
+mark {
+    padding: 0px;
+    background-color: #FFF143;
+}
+
 footer {
     background-color: #A78337;
     color: #FFF;
