@@ -64,6 +64,10 @@ dt {
     margin-bottom: 10px;
 }
 
+.panel-heading {
+    padding: 36px 15px;
+}
+
 .well {
     padding: 10px !important;
 }
