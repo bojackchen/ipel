@@ -1,3 +1,6 @@
+.project
+.metadata/
+.settings/
 skeleton.html
 intranet/.htaccess
 authtest/.htaccess
